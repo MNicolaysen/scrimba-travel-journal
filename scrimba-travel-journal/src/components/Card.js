@@ -1,12 +1,23 @@
+import "./Card.css";
+
 export default function Card(props) {
   return (
     <div>
-      <img src={props.imageUrl} />
-      <h2>{props.location}</h2>
-      <a href={props.googleMapsUrl}>View on Google Maps</a>
-      <h1>{props.title}</h1>
-      <h3>{props.startDate} - {props.endDate}</h3>
-      <p>{props.description}</p>
+      <div className="card">
+        <div className="location-img">
+          <img src={props.imageUrl} />
+        </div>
+        <div className="location-info">
+        <h1>{props.title}</h1>
+          <div className="location">
+            <h3><span><i class="fa-solid fa-location-dot"></i></span>{props.location}</h3>
+            <a href={props.googleMapsUrl}>View on Google Maps</a>
+          </div>
+          <h4>{props.startDate} - {props.endDate}</h4>
+          <p>{props.description}</p>
+        </div>
+      </div>
+      <hr/>
     </div>
-  )
+  );
 }
