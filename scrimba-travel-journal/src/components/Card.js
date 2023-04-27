@@ -11,7 +11,7 @@ export default function Card(props) {
         <h1>{props.title}</h1>
           <div className="location">
             <h3><span><i class="fa-solid fa-location-dot"></i></span>{props.location}</h3>
-            <a href={props.googleMapsUrl}>View on Google Maps</a>
+            <a href={props.googleMapsUrl} target="_blank">View on Google Maps</a>
           </div>
           <h4>{props.startDate} - {props.endDate}</h4>
           <p>{props.description}</p>
