@@ -1,0 +1,39 @@
+.card {
+  display: flex;
+  margin: 60px;
+  line-height: 20px;
+}
+
+.card img {
+  object-fit: cover;
+  height: 360px;
+  width: 280px;
+  border-radius: 12px;
+}
+
+.location {
+  display: flex;
+  align-items: center;
+}
+
+.location a {
+  margin-left: 20px;
+  color: grey;
+}
+
+.location-info {
+  margin: 20px 40px;
+}
+
+.location-info h1, h3, a {
+  line-height: 0px;
+}
+
+.location h3 span {
+  margin-right: 10px;
+  color: red;
+}
+
+hr {
+  margin: 0 60px;
+}
