@@ -10,7 +10,7 @@ function App() {
         key={country.id}
         {...country}
       />
-    )
+    );
   })
 
   return (

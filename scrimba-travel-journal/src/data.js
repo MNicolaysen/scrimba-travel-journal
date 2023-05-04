@@ -1,5 +1,6 @@
 export default [
   {
+      id: 1,
       title: "Kuala Lumpur",
       location: "Malaysia",
       googleMapsUrl: "https://www.google.co.uk/maps/place/Kuala+Lumpur,+Federal+Territory+of+Kuala+Lumpur,+Malaysia/@3.1386741,101.6045871,12z/data=!3m1!4b1!4m6!3m5!1s0x31cc362abd08e7d3:0x232e1ff540d86c99!8m2!3d3.1319197!4d101.6840589!16zL20vMDQ5ZDE",
@@ -14,6 +15,7 @@ export default [
   },
 
   {
+      id: 2,
       title: "Penang",
       location: "Malaysia",
       googleMapsUrl: "https://www.google.co.uk/maps/place/Penang,+Malaysia/@5.3545997,100.0333326,10z/data=!3m1!4b1!4m6!3m5!1s0x304a9403095390dd:0x29c305a5f38f633f!8m2!3d5.2632341!4d100.4846227!16zL20vMGc2eHE",
@@ -27,6 +29,7 @@ export default [
   },
 
   {
+      id: 3,
       title: "Komodo",
       location: "Indonesia",
       googleMapsUrl: "https://www.google.co.uk/maps/place/Bali,+Indonesia/@-8.4535604,114.4120777,9z/data=!3m1!4b1!4m6!3m5!1s0x2dd141d3e8100fa1:0x24910fb14b24e690!8m2!3d-8.4095178!4d115.188916!16s%2Fg%2F121hxh1j",
@@ -40,6 +43,7 @@ export default [
   },
 
   {
+      id: 4,
       title: "Bali",
       location: "Indonesia",
       googleMapsUrl: "https://www.google.co.uk/maps/place/Komodo+National+Park/@-8.5277107,119.4807449,17z/data=!3m1!4b1!4m6!3m5!1s0x2db4f8f329ac91b9:0xb1a1078870e0d162!8m2!3d-8.527716!4d119.4833198!16zL20vMDJ6cGhm",
